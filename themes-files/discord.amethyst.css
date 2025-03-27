@@ -14,19 +14,20 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /* Radial Status */
 @import url("https://xcruxiex.github.io/themes/core/settings-icons.css");
 :root {
-    --backgroundColor01: #371940;
-    --backgroundColor02: #230431;
-    --mainColor: #c4c1c1;
+    --backgroundColor01: #160020;
+    --backgroundColor02: #1c0027;
+    --backgroundSelectColor01: #371940;
+    --mainColor: #b5b5b5;
     --gradientColor01: #00f260;
-    --gradientColor02: #643da7;
-
-    /* Better Hljs */
+    --gradientColor02: #b5b5b5;
     --backgroundCode: #371940;
     --backgroundName: rgba(0, 0, 0, 0.2);
-
-    /* Radial Status */
     --rs-small-spacing: 2px;
-    --rs-large-spacing: 3px;
+    --rs-medium-spacing: 3px;
+    --rs-large-spacing: 4px;
+    --rs-small-width: 2px;
+    --rs-medium-width: 3px;
+    --rs-large-width: 4px;
     --rs-width: 2px;
     --rs-avatar-shape: 50%;
     --rs-online-color: #43b581;
@@ -101,4 +102,13 @@ background: var(--backgroundColor01);
 .guildIcon__0fa6d{
     background: var(--backgroundColor01);
 
+}
+.visual-refresh .sidebarResizeHandle_c48ade {
+    width: 1px;
+}
+.visual-refresh .sidebarResizeHandle_c48ade {
+    background: #2b1234;
+}
+.overflow__82b15 {
+    color: var(--mainColor);
 }

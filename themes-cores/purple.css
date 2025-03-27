@@ -1,32 +1,6 @@
+
 @import url("https://nyri4.github.io/Discolored/main.css");
 @import url("https://xcruxiex.github.io/themes/core/hljs.css");
-
-:root {
-    --backgroundColor01: #371940;
-    --backgroundColor02: #230431;
-    --mainColor: #b5b5b5;
-    --gradientColor01: #00f260;
-    --gradientColor02: #b5b5b5;
-    --backgroundCode: #371940;
-    --backgroundName: rgba(0, 0, 0, 0.2);
-    --rs-small-spacing: 2px;
-    --rs-medium-spacing: 3px;
-    --rs-large-spacing: 4px;
-    --rs-small-width: 2px;
-    --rs-medium-width: 3px;
-    --rs-large-width: 4px;
-    --rs-width: 2px;
-    --rs-avatar-shape: 50%;
-    --rs-online-color: #43b581;
-    --rs-idle-color: #faa61a;
-    --rs-dnd-color: #f04747;
-    --rs-offline-color: #636b75;
-    --rs-streaming-color: #643da7;
-    --rs-invisible-color: #747f8d;
-    --rs-phone-visible: block;
-    --rs-phone-color: var(--rs-online-color);
-}
-
 
 #app-mount .applicationStore_f07d62,
 #app-mount .bg__960e4,
@@ -174,7 +148,7 @@
 #app-mount .modeSelected__2ea32 .link__2ea32,
 #app-mount .modeSelected__2ea32:hover .link__2ea32,
 #app-mount .wrapper__2ea32:hover .link__2ea32 {
-    background-color: var(--backgroundColor01)
+    background-color: var(--backgroundSelectColor01)
 }
 
 #app-mount .link__2ea32 {
@@ -232,7 +206,7 @@
     height: 8px;
     width: 8px;
     border-radius: 4px;
-    left: 4px;
+    left: 0px;
     -webkit-transition: box-shadow .2s ease;
     -ms-transition: box-shadow .2s ease;
     -o-transition: box-shadow .2s ease;
@@ -640,7 +614,7 @@
 
 #app-mount .clickable__91a9d.container__91a9d:hover .layout__91a9d,
 #app-mount .selected__91a9d .layout__91a9d {
-    background-color: var(--backgroundColor01) !important
+    background-color: var(--backgroundSelectColor01) !important
 }
 
 #app-mount .selected__91a9d .activity__5d473 {
@@ -3049,10 +3023,6 @@
     background-color: transparent;
 }
 
-#app-mount .unread__2ea32:after {
-    left: -7px;
-}
-
 .container_ca49a1 {
     background-color: var(--backgroundColor01);
 }
@@ -3281,39 +3251,39 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 }
 
 .header_fed6d3 {
-	background-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor01);
 }
 
 .inner_a45028 {
-	background-color: var(--backgroundColor02);
+    background-color: var(--backgroundColor02);
 }
 
 .secondary__06eda {
-	background-color: var(--backgroundColor02);
+    background-color: var(--backgroundColor02);
 }
 
 .container_fc561d {
-	background-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor01);
 }
 
 .credentialList__6c75d {
-	background-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor01);
 }
 
 .container__5dbf8 {
-	background-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor01);
 }
 
 .container__8cc9a {
-	background-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor01);
 }
 
 .container__5b321 {
-	background-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor01);
 }
 
 .box_d9914b {
-	background-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor01);
 }
 
 .wrapper_fc8177{
@@ -3378,7 +3348,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     background: var(--backgrounColor02);
 }
 .clickable__9293f .icon__9293f {
-	color: var(--mainColor);
+    color: var(--mainColor);
 }
 
 .spriteGreyscale__04eed{
@@ -3414,10 +3384,10 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 }
 
 .icon_f84418{
-	color: var(--mainColor);
+    color: var(--mainColor);
 }
 .content_fed6d3{
-	background-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor01);
 }
 .scroller_ff90b2{
     background-color: var(--backgroundColor02);
@@ -3551,4 +3521,4 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 }
 .visual-refresh .sidebarResizeHandle_c48ade {
     background: #31153d;
-}
+}    
