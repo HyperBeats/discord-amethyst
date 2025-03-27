@@ -3549,3 +3549,6 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .lottieIcon__5eb9b :not(defs *)[fill][fill-opacity] {
     fill: #c4c1c1;
 }
+.visual-refresh .sidebarResizeHandle_c48ade {
+    background: #31153d;
+}
