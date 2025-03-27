@@ -3533,3 +3533,19 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 
 .visual-refresh .chatContent_f75fb0{background: transparent;}
 .visual-refresh .container__7641b{background: transparent;}
+
+.selected__91a9d .childContainer__91a9d {
+    background:var(--backgroundColor1);
+}
+.clickable__91a9d:hover .childContainer__91a9d {
+    background:var(--backgroundColor1);
+}
+.selected__91a9d .childContainer__91a9d {
+    background:var(--backgroundColor1);
+}
+.clickable__91a9d:hover .childContainer__91a9d {
+    background:var(--backgroundColor1);
+}
+.lottieIcon__5eb9b :not(defs *)[fill][fill-opacity] {
+    fill: #c4c1c1;
+}
