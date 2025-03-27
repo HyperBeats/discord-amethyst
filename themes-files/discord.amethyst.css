@@ -1,0 +1,103 @@
+/**
+* @name Discord-Amethyst
+* @version 1.0.1
+* @description For when default discord just isn't dark enough, a theme for those who live a night
+* @author HyperBeats
+* @source https://github.com/HyperBeats/discord-amethyst
+*/
+
+@import url("https://raw.githubusercontent.com/HyperBeats/discord-amethyst/refs/heads/main/themes-cores/purple.css");
+
+@import url("https://xcruxiex.github.io/themes/core/badges.css");
+@import url("https://xcruxiex.github.io/themes/core/custom-font.css");
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /* Radial Status */
+@import url("https://xcruxiex.github.io/themes/core/settings-icons.css");
+:root {
+    --backgroundColor01: #371940;
+    --backgroundColor02: #230431;
+    --mainColor: #c4c1c1;
+    --gradientColor01: #00f260;
+    --gradientColor02: #643da7;
+
+    /* Better Hljs */
+    --backgroundCode: #371940;
+    --backgroundName: rgba(0, 0, 0, 0.2);
+
+    /* Radial Status */
+    --rs-small-spacing: 2px;
+    --rs-large-spacing: 3px;
+    --rs-width: 2px;
+    --rs-avatar-shape: 50%;
+    --rs-online-color: #43b581;
+    --rs-idle-color: #faa61a;
+    --rs-dnd-color: #f04747;
+    --rs-offline-color: #636b75;
+    --rs-streaming-color: #643da7;
+    --rs-invisible-color: #747f8d;
+    --rs-phone-visible: block;
+    --rs-phone-color: var(--rs-online-color);
+
+    /* Unread Animation :
+    none -> static point.
+    pulse -> pulsating point
+    */
+    --unread-animation: pulse;
+
+    --customFont: "gg sans", sans-serif;
+}
+.peopleColumn__133bf{
+    background-color: var(--backgroundColor02)
+}
+.visual-refresh .form_f75fb0 {
+    background-color: var(--backgroundColor02)
+}
+.visual-refresh .sidebar_c48ade:after {
+    background-color: var(--backgroundColor02)
+}
+.scrollerContent__36d07 {
+    background: var(--backgroundColor02);
+}
+.inner_c0bea0.fullSize_c0bea0, .inner_c0bea0.biteSize_c0bea0{
+    background: var(--backgroundColor01);
+
+}
+.popout_af3b89{
+    background:var(--backgroundColor01) ;
+}
+.popoutContentWrapper_af3b89{
+    background:var(--backgroundColor01) ;
+}
+.interactionsContainer_af3b89{
+    background:var(--backgroundColor01) ;
+
+}
+
+
+.visual-refresh .emojiPickerHasTabWrapper_c0e32c .header_c0e32c {
+    background:var(--backgroundColor01) ;
+}
+.scroller_affa7e{
+    background:var(--backgroundColor01) ;
+
+}
+.visual-refresh .unicodeShortcut_b9ee0c {
+    background: var(--backgroundColor01);
+}
+.visual-refresh .header_fed6d3{
+    background: var(--backgroundColor01);
+
+}
+.visual-refresh .header__8ef02{
+background: var(--backgroundColor01);
+}
+.sticker_e94b8c{
+    background: var(--backgroundColor01);
+
+}
+.visual-refresh .standardStickerShortcut__3ad28 {
+    background: var(--backgroundColor01);
+}
+.guildIcon__0fa6d{
+    background: var(--backgroundColor01);
+
+}
